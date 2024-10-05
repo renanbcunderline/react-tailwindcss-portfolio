@@ -8,13 +8,15 @@ import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
 import NewsPage from './pages/News.jsx';
 
-const AboutMe = lazy(() => import('./pages/AboutMe'));
+const About = lazy(() => import('./pages/AboutMe'));
 const Events = lazy(() => import('./pages/Events'));
-const Contact = lazy(() => import('./pages/Contact.jsx'));
+const Resources = lazy(() => import('./pages/Resources'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 const Partnership = lazy(() => import('./pages/Partnerships.jsx'))
+const Donation = lazy(() => import('./pages/Donation.jsx'))
+const Contact = lazy(() => import('./pages/Contact.jsx'));
 
 
 function App() {
@@ -28,9 +30,11 @@ function App() {
 						<Routes>
 							<Route path="/" element={<Home />} />
 							<Route path="events" element={<Events />} />
-							<Route path="about" element={<AboutMe />} />
-							<Route path="contact" element={<Contact />} />
+							<Route path="resources" element={<Resources />} />
+							<Route path="about" element={<About />} />
 							<Route path="partnership" element={<Partnership />}/>
+							<Route path="donation" element={<Donation />} />
+							<Route path="contact" element={<Contact />} />
 							<Route path="blog" element={<NewsPage/>}/>
 						</Routes>
 					</Suspense>
