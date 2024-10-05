@@ -1,10 +1,8 @@
 import { Link } from 'react-router-dom';
 import AppBanner from '../components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid';
-import EventsGrid from '../components/events/EventsGrid';
 import AboutMeBio from '../components/about/AboutMeBio';
 import { ProjectsProvider } from '../context/ProjectsContext';
-import { EventsProvider } from '../context/EventsContext';
 import { AboutMeProvider } from '../context/AboutMeContext';
 import Button from '../components/reusable/Button';
 
@@ -39,10 +37,6 @@ const Home = () => {
 					<Button title="MAIS PROJETOS" />
 				</Link>
 			</div>
-
-			<EventsProvider>
-				<EventsGrid></EventsGrid>
-			</EventsProvider>
 
 			<div className="mt-8 sm:mt-10 flex justify-center">
 				<Link
