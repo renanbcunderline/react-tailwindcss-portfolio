@@ -1,25 +1,25 @@
 import { useContext } from 'react';
 import { FiSearch } from 'react-icons/fi';
-import ProjectSingle from './ProjectSingle';
-import { ProjectsContext } from '../../context/ProjectsContext';
-import ProjectsFilter from './ProjectsFilter';
+import EventSingle from './EventSingle';
+import { EventsContext } from '../../context/EventsContext';
+import EventsFilter from './EventsFilter';
 
-const ProjectsGrid = () => {
+const EventsGrid = () => {
 	const {
-		projects,
-		searchProject,
-		setSearchProject,
-		searchProjectsByTitle,
-		selectProject,
-		setSelectProject,
-		selectProjectsByCategory,
-	} = useContext(ProjectsContext);
+		events,
+		searchEvent,
+		setSearchEvent,
+		searchEventsByTitle,
+		selectEvent,
+		setSelectEvent,
+		selectEventsByCategory,
+	} = useContext(EventsContext);
 
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Programas
+					Eventos
 				</p>
 			</div>
 
@@ -33,7 +33,7 @@ const ProjectsGrid = () => {
                         mb-3
                         "
 				>
-					Search projects by title or filter by category
+					Search events by title or filter by category
 				</h3>
 				<div
 					className="
@@ -62,7 +62,7 @@ const ProjectsGrid = () => {
 						</span>
 						<input
 							onChange={(e) => {
-								setSearchProject(e.target.value);
+								setSearchEvent(e.target.value);
 							}}
 							className="font-general-medium 
                                 pl-3
@@ -84,40 +84,40 @@ const ProjectsGrid = () => {
 							name="name"
 							type="search"
 							required=""
-							placeholder="Search Projects"
+							placeholder="Search Events"
 							aria-label="Name"
 						/>
 					</div>
 
-					<ProjectsFilter setSelectProject={setSelectProject} />
+					<EventsFilter setSelectEvent={setSelectEvent} />
 				</div>
 			</div>
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
-				{selectProject
-					? selectProjectsByCategory.map((project) => (
-							<ProjectSingle
-								title={project.title}
-								category={project.category}
-								image={project.img}
-								key={project.id}
+				{selectEvent
+					? selectEventsByCategory.map((event) => (
+							<EventSingle
+								title={event.title}
+								category={event.category}
+								image={event.img}
+								key={event.id}
 							/>
 					  ))
-					: searchProject
-					? searchProjectsByTitle.map((project) => (
-							<ProjectSingle
-								title={project.title}
-								category={project.category}
-								image={project.img}
-								key={project.id}
+					: searchEvent
+					? searchEventsByTitle.map((event) => (
+							<EventSingle
+								title={event.title}
+								category={event.category}
+								image={event.img}
+								key={event.id}
 							/>
 					  ))
-					: projects.map((project) => (
-							<ProjectSingle
-								title={project.title}
-								category={project.category}
-								image={project.img}
-								key={project.id}
+					: events.map((event) => (
+							<EventSingle
+								title={event.title}
+								category={event.category}
+								image={event.img}
+								key={event.id}
 							/>
 					  ))}
 			</div>
@@ -125,4 +125,4 @@ const ProjectsGrid = () => {
 	);
 };
 
-export default ProjectsGrid;
+export default EventsGrid;
