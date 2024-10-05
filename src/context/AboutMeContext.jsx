@@ -1,12 +1,12 @@
 import { useState, createContext } from 'react';
-import { aboutMeData } from '../data/aboutMeData';
+import { aboutMeDataResume } from '../data/aboutMeData';
 import { clientsHeading as clientsPageHeading } from '../data/clientsData';
 import { clientsData as clientsDataJson } from '../data/clientsData';
 
 const AboutMeContext = createContext();
 
 export const AboutMeProvider = ({ children }) => {
-	const [aboutMe, setAboutMe] = useState(aboutMeData);
+	const [aboutMe, setAboutMe] = useState(aboutMeDataResume);
 
 	const clientsHeading = clientsPageHeading;
 
