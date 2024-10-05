@@ -1,13 +1,11 @@
-import EventsGrid from '../components/events/EventsGrid';
-import { EventsProvider } from '../context/EventsContext';
+import Calendar from '../components/Calendar/Calendar';
+
 
 const Events = () => {
 	return (
-		<EventsProvider>
-			<div className="container mx-auto">
-				<EventsGrid />
-			</div>
-		</EventsProvider>
+		<div className="container mx-auto">
+			<Calendar/>
+		</div>
 	);
 };
 
