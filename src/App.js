@@ -7,7 +7,7 @@ import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
 
-const AboutMe = lazy(() => import('./pages/AboutMe'));
+const About = lazy(() => import('./pages/AboutMe'));
 const Events = lazy(() => import('./pages/Events'));
 const Resources = lazy(() => import('./pages/Resources'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
