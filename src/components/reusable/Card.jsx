@@ -20,12 +20,12 @@ const Card = ({ title, image, link, description, textButton, hasTitle, hasButton
                 )
 
                 }
-                
-
+            
                 {hasButton && (
-                    <a href={link} className="inline-block bg-primary text-white px-4 py-2 rounded-lg shadow-md hover:bg-primary-dark">
-                    {textButton}
-                    </a>
+                    <button href={link} className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
+                            {textButton}
+                    </button>
+                    
                 )}
             </div>
 		</>
