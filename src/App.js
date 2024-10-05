@@ -36,6 +36,11 @@ function App() {
 							<Route path="donation" element={<Donation />} />
 							<Route path="contact" element={<Contact />} />
 							<Route path="blog" element={<NewsPage/>}/>
+							<Route path="projects" element={<Projects />} />
+							<Route
+								path="projects/single-project"
+								element={<ProjectSingle />}
+							/>
 						</Routes>
 					</Suspense>
 					<AppFooter />

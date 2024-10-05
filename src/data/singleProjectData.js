@@ -38,16 +38,16 @@ export const singleProjectData = {
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
+		ClientHeading: 'Sobre o cliente',
 		CompanyInfo: [
 			{
 				id: 1,
-				title: 'Name',
+				title: 'Nome',
 				details: 'Company Ltd',
 			},
 			{
 				id: 2,
-				title: 'Services',
+				title: 'Serviços',
 				details: 'UI Design & Frontend Development',
 			},
 			{
@@ -57,16 +57,16 @@ export const singleProjectData = {
 			},
 			{
 				id: 4,
-				title: 'Phone',
+				title: 'Telefone',
 				details: '555 8888 888',
 			},
 		],
-		ObjectivesHeading: 'Objective',
+		ObjectivesHeading: 'Objetivos',
 		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			'O projeto de design da Fundação COMP+ visa revitalizar a identidade visual da instituição para refletir seus valores e missão, melhorando a comunicação e aumentando o engajamento com instituições parceiras. O foco está em promover acessibilidade, fortalecer a marca e aprimorar o reconhecimento institucional, facilitando a implementação de projetos e reforçando os princípios de legalidade, impessoalidade, moralidade, publicidade, economicidade e eficiência. Ao final, o projeto busca criar materiais que transmitam uma imagem moderna e profissional, consolidando a posição da Fundação COMP+ como uma organização confiável no apoio a iniciativas de pesquisa e inovação.',
 		Technologies: [
 			{
-				title: 'Tools & Technologies',
+				title: 'Ferramentas & Tecnologias',
 				techs: [
 					'HTML',
 					'CSS',
@@ -77,65 +77,60 @@ export const singleProjectData = {
 				],
 			},
 		],
-		ProjectDetailsHeading: 'Challenge',
+		ProjectDetailsHeading: 'Desafios',
 		ProjectDetails: [
 			{
 				id: 1,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'O projeto de design da Fundação COMP+ tem como objetivo revitalizar a identidade visual da instituição, alinhando-a com a sua missão de oferecer suporte administrativo a Instituições Científicas e Tecnológicas (ICTs) e Universidades Públicas. A proposta busca criar uma comunicação mais eficaz e atrativa, refletindo os valores fundamentais da COMP+: legalidade, impessoalidade, moralidade, publicidade, economicidade e eficiência.',
 			},
 			{
 				id: 2,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'Este projeto inclui a criação de um novo logotipo, paleta de cores e tipografia que representam a seriedade e a inovação da fundação. Além disso, serão desenvolvidas aplicações visuais que abarquem materiais de comunicação, como folhetos, apresentações institucionais e conteúdo digital, garantindo uma presença coesa e impactante nos diversos meios.',
 			},
 			{
 				id: 3,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 4,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
+					'O design também terá como foco a acessibilidade e a inclusão, assegurando que todas as partes interessadas possam interagir com a comunicação da COMP+ de maneira fácil e intuitiva. Ao final do projeto, esperamos que a nova identidade visual não apenas fortaleça a imagem da Fundação COMP+, mas também contribua para o engajamento com as instituições que apoia, reforçando seu compromisso com a excelência na gestão administrativa e financeira.',
+			}
 		],
-		SocialSharingHeading: 'Share This',
+		SocialSharingHeading: 'Compartilhar',
 		SocialSharing: [
 			{
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
+				url: '',
 			},
 			{
 				id: 2,
 				name: 'Instagram',
 				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
+				url: '',
 			},
 			{
 				id: 3,
 				name: 'Facebook',
 				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
+				url: '',
 			},
 			{
 				id: 4,
 				name: 'LinkedIn',
 				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
+				url: '',
 			},
 			{
 				id: 5,
 				name: 'Youtube',
 				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
+				url: '',
 			},
 		],
 	},
 	RelatedProject: {
-		title: 'Related Projects',
+		title: 'Projetos relacionados',
 		Projects: [
 			{
 				id: 1,
@@ -144,19 +139,14 @@ export const singleProjectData = {
 			},
 			{
 				id: 2,
-				title: 'Web Application',
+				title: 'Desenvolvimento web',
 				img: Image5,
 			},
 			{
 				id: 3,
 				title: 'UI Design',
 				img: Image6,
-			},
-			{
-				id: 4,
-				title: 'Kabul Mobile App UI',
-				img: Image3,
-			},
+			}
 		],
 	},
 };

@@ -10,7 +10,7 @@ export const projectsData = [
 	{
 		id: 1,
 		title: 'Google Health Platform',
-		category: 'Web Application',
+		category: 'Desenvolvimento web',
 		img: WebImage2,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
@@ -21,7 +21,7 @@ export const projectsData = [
 	{
 		id: 2,
 		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
+		category: 'Desenvolvimento Mobile',
 		img: MobileImage2,
 	},
 	{
@@ -39,13 +39,13 @@ export const projectsData = [
 	{
 		id: 5,
 		title: 'React Social App',
-		category: 'Mobile Application',
+		category: 'Desenvolvimento Mobile',
 		img: MobileImage1,
 	},
 	{
 		id: 6,
 		title: 'Apple Design System',
-		category: 'Web Application',
+		category: 'Desenvolvimento Web',
 		img: WebImage1,
 	},
 ];

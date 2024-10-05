@@ -33,7 +33,7 @@ const ProjectsGrid = () => {
                         mb-3
                         "
 				>
-					Search projects by title or filter by category
+					Programas em execução
 				</h3>
 				<div
 					className="
