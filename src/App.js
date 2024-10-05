@@ -7,13 +7,14 @@ import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
 
-const About = lazy(() => import('./pages/AboutMe'));
+const AboutMe = lazy(() => import('./pages/AboutMe'));
 const Events = lazy(() => import('./pages/Events'));
 const Resources = lazy(() => import('./pages/Resources'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
+const Partnership = lazy(() => import('./pages/Partnerships.jsx'))
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 							<Route path="resources" element={<Resources />} />
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
+							<Route path="partnership" element={<Partnership />}/>
 						</Routes>
 					</Suspense>
 					<AppFooter />
