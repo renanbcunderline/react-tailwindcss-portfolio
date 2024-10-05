@@ -2,7 +2,7 @@
 import techworld from '../images/brands/techworld.svg';
 import eduFuture from '../images/brands/edufuture.svg';
 import inovatech from '../images/brands/innovatech.svg';
-import veio from '../images/veio.jpg';
+import veio from '../images/banner.jpg';
 
 export const partnershipHeading = 'Some of the brands that trust me';
 
