@@ -1,10 +1,27 @@
 export const aboutMeData = [
 	{
-		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+	  id: 1,
+	  bio: (
+		<>
+		  <strong>Fundação COMP+</strong> é uma organização sem fins lucrativos, fundada em 2012, dedicada a fornecer suporte administrativo a Instituições Científicas e Tecnológicas (ICTs) e Universidades Públicas. Nossa missão é promover a excelência em pesquisa científica, desenvolvimento e inovação, garantindo a execução eficaz de projetos que impactam a sociedade.
+		</>
+	  ),
 	},
 	{
-		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+	  id: 2,
+	  bio: (
+		<>
+		  <strong>Missão:</strong> Apoiar instituições acadêmicas e científicas na realização de projetos inovadores, assegurando gestão administrativa e financeira de alta qualidade.
+		</>
+	  ),
 	},
-];
+	{
+	  id: 3,
+	  bio: (
+		<>
+		  <strong>Visão:</strong> Ser referência em gestão de projetos de pesquisa e inovação, contribuindo para o avanço científico e tecnológico no Brasil.
+		</>
+	  ),
+	},
+  ];
+  
